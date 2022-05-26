@@ -4,7 +4,7 @@
 // 3. Install the node-fetch package. Make sure you install version 2.6.7 as discussed (V3 doesn't support commonjs modules).
 // 4. Create a method that calls the API to get temperature using node-fetch.
 // 5. Install the commander package.
-// 6. Create a basic commander boilerplate without the actions implementation (just the metadata and commands configuration).
+// 6. Create a basic commander skeleton without the actions implementation (just the metadata and commands configuration).
 // 7. Implement the first command, including the optional arguments.
 // 8. BONUS - Implement the second command.
 
