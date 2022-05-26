@@ -1,6 +1,5 @@
-### WIP DRAFT
-
 # workshop-6
+
 Fork this repo
 
 ## Weather App V2
@@ -10,23 +9,27 @@ Create a CLI app by using the Commander package, which is capable of fetching an
 # Requirements
 
 Your CLI should expose two features (two different commands):
-1. `get-temp` - Fetch and display the temprature of a certain city.
-  Arguments:
-  - The first argument is the city name (mandatory).
-  - Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
-2. `get-weekly-forecast` **(bonus)** - Fetch and display the weekly weather forecase of a certain city.
-  The output should be a list in the following format:
-  
-  `<date>: <min temp> - <max temp>`
-  
-  `<date>: <min temp> - <max temp>`
-  
-  ...
-    
-  Arguments:
-  - The first argument is the city name (mandatory).
-  - Optional argument: `-c` for Celsuis format or `-f` for Fahrenheit. The default should be celsius.
-  - Optional argument: `-d`, `--days` for the number of days to display the forecase for. The default should be 7.
+
+1. `get-temp` - Fetch and display the temperature of a certain city.
+   Arguments:
+
+- The first argument is the city name (mandatory).
+- Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
+
+2. `get-weekly-forecast` **(bonus)** - Fetch and display the weekly weather forecast of a certain city.
+   The output should be a list in the following format:
+
+`<date>: <min temp> - <max temp>`
+
+`<date>: <min temp> - <max temp>`
+
+...
+
+Arguments:
+
+- The first argument is the city name (mandatory).
+- Optional argument: `-c` for Celsius format or `-f` for Fahrenheit. The default should be celsius.
+- Optional argument: `-d`, `--days` for the number of days to display the forecast for. The default should be 7.
 
 # Guidelines
 
