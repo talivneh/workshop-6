@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "# workshop-6 Fork this repo",
   "main": "weather.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
