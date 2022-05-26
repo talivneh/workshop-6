@@ -38,4 +38,4 @@ Arguments:
 2. Your API key should be stored in a `.env` file. Refer to the guidelines in the lecture slides.
 3. Use the `URLSearchParams` native class in order to build the query string, and append it to the request url.
 4. Handle errors of your API requests, and write logs on each error which include the command arguments and the error details. You'll be using the logger module that you've published during workflow-5!
-5. Create a nice user experience for the user of your CLI - Set a clear description for each command and its arguments.
+5. Create a nice user experience for the users of your CLI - Set a clear description for each command and its arguments.
