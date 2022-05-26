@@ -11,26 +11,32 @@ Create a CLI app by using the Commander package, which is capable of fetching an
 Your CLI should expose two features (two different commands):
 
 1. `get-temp` - Fetch and display the temperature of a certain city.
+   The output should be in the following format:
+
+   Structure: `It's <temp> degrees in <city name>`
+
+   Example: `It's 27.6 degrees in Tel Aviv`
+
    Arguments:
 
-- The first argument is the city name (mandatory).
-- Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
+   - The first argument is the city name (mandatory).
+   - Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
 
-2. `get-detailed-forecast` **(bonus)** - Fetch and display the detailed weather forecast of a certain city.
+1. `get-detailed-forecast` **(bonus)** - Fetch and display the detailed weather forecast of a certain city.
    The output should display the following details:
 
 - Weather description
 - Min and max temperature
 - Wind speed
 
-Structure: `Today we will have <weather description>, temperatures will range from <min temp> to <max temp> with a wind speed of <wind speed>.`
+  Structure: `Today we will have <weather description>, temperatures will range from <min temp> to <max temp> with a wind speed of <wind speed>`
 
-Example: `Today we will have clear sky, temperatures will range from 26 to 32 with a wind speed of 4.12.`
+  Example: `Today we will have clear sky, temperatures will range from 26 to 32 degrees with a wind speed of 4.12`
 
-Arguments:
+  Arguments:
 
-- The first argument is the city name (mandatory).
-- Optional argument: `-c` for Celsius format or `-f` for Fahrenheit. The default should be celsius.
+  - The first argument is the city name (mandatory).
+  - Optional argument: `-c` for Celsius format or `-f` for Fahrenheit. The default should be celsius.
 
 # Guidelines
 
