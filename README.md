@@ -16,20 +16,21 @@ Your CLI should expose two features (two different commands):
 - The first argument is the city name (mandatory).
 - Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
 
-2. `get-weekly-forecast` **(bonus)** - Fetch and display the weekly weather forecast of a certain city.
-   The output should be a list in the following format:
+2. `get-detailed-forecast` **(bonus)** - Fetch and display the detailed weather forecast of a certain city.
+   The output should display the following details:
 
-`<date>: <min temp> - <max temp>`
+- Weather description
+- Min and max temperature
+- Wind speed
 
-`<date>: <min temp> - <max temp>`
+Structure: `Today we will have <weather description>, temperatures will range from <min temp> to <max temp> with a wind speed of <wind speed>.`
 
-...
+Example: `Today we will have clear sky, temperatures will range from 26 to 32 with a wind speed of 4.12.`
 
 Arguments:
 
 - The first argument is the city name (mandatory).
 - Optional argument: `-c` for Celsius format or `-f` for Fahrenheit. The default should be celsius.
-- Optional argument: `-d`, `--days` for the number of days to display the forecast for. The default should be 7.
 
 # Guidelines
 
