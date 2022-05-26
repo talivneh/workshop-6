@@ -2,7 +2,8 @@
   "name": "workshop-6",
   "version": "1.0.0",
   "description": "# workshop-6 Fork this repo",
-  "main": "index.js",
+  "main": "weather.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
   "dependencies": {
     "commander": "^9.2.0",
     "dotenv": "^16.0.1",
-    "node-fetch": "^2.6.7"
+    "mondayu-logger": "^1.0.4",
+    "node-fetch": "^3.2.4"
   }
 }
