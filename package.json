@@ -2,7 +2,7 @@
   "name": "workshop-6",
   "version": "1.0.0",
   "description": "# workshop-6 Fork this repo",
-  "main": "index.js",
+  "main": "weather.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
