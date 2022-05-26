@@ -16,6 +16,7 @@ Your CLI should expose two features (two different commands):
   - Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
 2. `get-weekly-forecast` **(bonus)** - Fetch and display the weekly weather forecase of a certain city.
   The output should be a list in the following format:
+  
   `<date>: <min temp> - <max temp>`
   
   `<date>: <min temp> - <max temp>`
