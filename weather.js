@@ -1,7 +1,7 @@
 // Recommended order for your solution:
 // 1. Install the dotenv package.
 // 2. Add a dotenv file, put the API key in dotenv and print it.
-// 3. Install the node-fetch package. Make sure you install version 2.6.7 as discussed (V3 doesn't support commonjs modules).
+// 3. Install the node-fetch package.
 // 4. Create a method that calls the API to get temperature using node-fetch.
 // 5. Install the commander package.
 // 6. Create a basic commander skeleton without the actions implementation (just the metadata and commands configuration).
