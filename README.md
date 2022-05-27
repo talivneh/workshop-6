@@ -36,7 +36,7 @@ Your CLI should expose two features (two different commands):
   Arguments:
 
   - The first argument is the city name (mandatory).
-  - Optional argument: `-c` for Celsius format or `-f` for Fahrenheit. The default should be celsius.
+  - Optional argument: `-s`, `--scale` for either `c` (celsius) or `f` (fahrenheit). The default should be celsius.
 
 # Guidelines
 
